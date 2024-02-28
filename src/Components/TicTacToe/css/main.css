@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(40, 2, 75);
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+.container h1 {
+  color: #f4f0f7;
+}
+.container h1 span {
+  color: rgb(228, 219, 47);
+}
+
+.board {
+  background-color: rgb(40, 2, 75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  height: 600px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 15px;
+}
+
+.reset {
+  background-color: rgb(68, 24, 109);
+  color: #f4f0f7;
+  border: none;
+  font-size: 36px;
+  padding: 15px 100px 15px 100px;
+  border-radius: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.reset:hover {
+  background-color: rgb(82, 34, 126);
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 190px;
+  width: 190px;
+  background-color: rgb(77, 36, 116);
+  border: 4px solid rgb(40, 2, 75);
+  border-radius: 12px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.boxes img {
+  margin: 5px;
+}
+.boxes:hover {
+  background-color: rgb(99, 50, 144);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
